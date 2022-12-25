@@ -18,7 +18,7 @@
 // }
 // // js variable end here
 
-// scope and scope chain start here
+// scope  start here
 // let var1 = "sneha";
 // var var2 = "sneha again";
 // console.log(window.var1 ,window.var2);
@@ -43,6 +43,7 @@
 //   var varFun=()=>console.log(ab,bc);
 //   varFun();
 // };
+// scope  end here
 
 // function scope and scope chain start here
 // let ab = `im global`;
@@ -81,21 +82,48 @@
 // lexiParent();
 // lexical scoping end here
 
+// hoisting start here
 
+// // console.log(host);
+// // var host = "im hoisting";
+// // // console.log(host);
 
+// hostTest();
+// // console.log(hostTest);
+// function hostTest(){
+//   var hostAgain = "im inside hoisting function";
+//   console.log( hostAgain);
+// };
 
+// // console.log(expressionFun);
+// // expressionFun();
+// // var expressionFun = function (){
+// //   console.log("im inside expression function");
+// // }
 
+// // console.log(expressionFun2);
+// // expressionFun2();
+// // var expressionFun2 = ()=>{
+// //   console.log("im inside expression function");
+// // }
 
+// hoisting with let and const
+// console.log(variable);
+// let variable = "im hoisting";
+// {
+//   console.log(varBloc);
+//   let varBloc = "im inside block hoisting"
+// }
 
+// console.log(expressionFun);
+// expressionFun();
+// let expressionFun = function (){
+//   console.log("im inside expression function");
+// }
 
-
-
-
-
-
-
-
-
-
-
-
+// console.log(expressionFun2);
+// expressionFun2();
+// let expressionFun2 = ()=>{
+//   console.log("im inside expression function");
+// }
+// hoisting end here
